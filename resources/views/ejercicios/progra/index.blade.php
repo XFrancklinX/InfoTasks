@@ -1,144 +1,304 @@
 @extends('layouts.default')
 
 @section('contenido')
-<style>
-    @media only screen and (max-width: 600px) {
 
-        .main-content-excprog {
-            width: 100%;
-            background-color: black;
-        }
+<section class="layout">
+    <!-- <div class="header">1</div> -->
+    <div class="leftSide">
+        <aside class="sidebar">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <!-- C# MENU -->
+                        <a class="nav-link collapsed exc" href="#" data-id="1" aria-expanded="false" aria-controls="collapseLearnCSHARP">
+                            <div class="d-flex justify-content-around sb-nav-link-icon text-center fs-4"><img class="img" src="{{asset('images/icons/c-sharp-c.svg')}}" alt="Visual Studio 2022"><!-- <span class="text-white"> C#</span> --></div>
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <!-- <div class="collapse" id="collapseLearnCSHARP" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="#cs_op1">¿Qué es C#?</a>
+                                <a class="nav-link" href="#cs_op2">Instalación de Visual Studio IDE</a>
+                                <a class="nav-link" href="#cs_op3">Aspectos Básicos de Visual Studio</a>
+                                <a class="nav-link" href="#cs_op4">Manejo de Windows Forms .NET</a>
+                                <a class="nav-link" href="#cs_op5">Tipos de datos y Variables</a>
+                                <a class="nav-link" href="#cs_op6">Condicionales y Ciclos</a>
+                                <a class="nav-link" href="#cs_op7">Arrays y Matrices</a>
+                                <a class="nav-link" href="#cs_op8">Programación Orientada a Objetos (POO)</a>
+                                <a class="nav-link" href="#cs_op9">Gráficos con C#</a>
+                                <a class="nav-link" href="#cs_op10">SQL Server</a>
+                                <a class="nav-link" href="#cs_op11">C# y SQL Server</a>
+                                <a class="nav-link" href="#cs_op12">CRUD con C# y SQL Server</a>
+                            </nav>
+                        </div> -->
+                        <!-- <a class="nav-link collapsed exc" href="#" data-id="2" aria-expanded="false" aria-controls="collapseLearnPYTHON" aria-disabled="true">
+                            <div class="d-flex justify-content-around sb-nav-link-icon text-center fs-4"><img class="img" src="{{asset('images/icons/python.svg')}}" alt="Visual Studio 2022"></div>
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <a class="nav-link collapsed exc" href="#" data-id="3" aria-expanded="false" aria-controls="collapseLearnPYTHON">
+                            <div class="d-flex justify-content-around sb-nav-link-icon text-center fs-4"><img class="img" src="{{asset('images/icons/java.svg')}}" alt="Visual Studio 2022"></div>
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <a class="nav-link collapsed exc" href="#" data-id="4" aria-expanded="false" aria-controls="collapseLearnPYTHON">
+                            <div class="d-flex justify-content-around sb-nav-link-icon text-center fs-4"><img class="img" src="{{asset('images/icons/javascript.svg')}}" alt="Visual Studio 2022"></div>
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <a class="nav-link collapsed exc" href="#" data-id="5" aria-expanded="false" aria-controls="collapseLearnPYTHON">
+                            <div class="d-flex justify-content-around sb-nav-link-icon text-center fs-4"><img class="img" src="{{asset('images/icons/c-cpp.svg')}}" alt="Visual Studio 2022"></div>
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <a class="nav-link collapsed exc" href="#" data-id="6" aria-expanded="false" aria-controls="collapseLearnPYTHON">
+                            <div class="d-flex justify-content-around sb-nav-link-icon text-center fs-4"><img class="img" src="{{asset('images/icons/php.svg')}}" alt="Visual Studio 2022">
+                                <div>
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <a class="nav-link collapsed exc" href="#" data-id="7" aria-expanded="false" aria-controls="collapseLearnPYTHON">
+                            <div class="d-flex justify-content-around sb-nav-link-icon text-center fs-4"><img class="img" src="{{asset('images/icons/elixir.svg')}}" alt="Visual Studio 2022"></div>
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="adsense-section ">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-        article.card {
-            width: 100%;
-            justify-content: start;
-        }
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
 
-        article>.link {
-            font-size: 1.3rem;
-            text-decoration: none;
-            color: black;
-            font-weight: bolder;
-        }
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <div class="adsense-section ">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-        .nav-link:focus,
-        .nav-link:hover {
-            /* color: var(--bs-nav-link-hover-color) */
-            color: white;
-        }
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
 
-        .navbar-nav .nav-link.active,
-        .navbar-nav .nav-link.show {
-            /* color: var(--bs-navbar-active-color) */
-            color: white;
-        }
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <div class="adsense-section ">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-        article>ul a {
-            text-decoration: none;
-            color: black;
-            font-size: 1.1rem;
-            font-weight: bolder;
-        }
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
 
-        article>ul {
-            width: 100%;
-        }
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <div class="adsense-section ">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-        section {
-            width: 100%;
-        }
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
 
-        .data-details>textarea {
-            width: 100%;
-            height: auto;
-            background-color: black;
-            color: white;
-            border: none;
-        }
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <div class="adsense-section ">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-        .data-code {
-            border-top: 3px solid white;
-            border-bottom: 3px solid white;
-            border-radius: 15px;
-        }
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
 
-        code>pre {
-            font-size: 1.1rem;
-            color: aqua;
-            background-color: black;
-            width: 100%;
-            height: auto;
-            /* white-space: nowrap; */
-            border: none;
-        }
-    }
-</style>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <div class="adsense-section ">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-<main class="main-content-excprog px-3 py-3">
-    @csrf
-    <article class="card dropdown">
-        <a href="#" class="link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ejercicios</a>
-        <ul class="dropdown-menu">
-            <li class="dropdown-item"><a href="#" id="java" name="java" data-opcion="java" class="option">Java</a></li>
-            <li class="dropdown-item"><a href="#" id="csharp" name="csharp" data-opcion="csharp" class="option">C#</a></li>
-            <li class="dropdown-item"><a href="#" id="python" data-opcion="python" class="option">Python</a></li>
-            <li class="dropdown-item"><a href="#" id="php" data-opcion="php" class="option">PHP</a></li>
-            <li class="dropdown-item"><a href="#" id="javascript" data-opcion="javascript" class="option">JavaScript</a></li>
-        </ul>
-    </article>
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
 
-    <section class="data-container-excprog px-3 py-3">
-        <!-- {!!$html!!} -->
-    </section>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <div class="adsense-section ">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
 
-</main>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <div class="adsense-section ">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <div class="adsense-section ">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <div class="adsense-section">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+            </nav>
+        </aside>
+    </div>
+    <div class="body">
+        <div class="data-container-excprog">
+
+            <div class="data-content" id="#data-content">
+                @include('includes.csharp')
+            </div>
+        </div>
+    </div>
+    <div class="rightSide card">
+        <div class="adsense-section ">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="adsense-section ">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="adsense-section ">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="adsense-section ">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="adsense-section ">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="adsense-section ">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="adsense-section ">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="adsense-section ">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="adsense-section ">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="adsense-section ">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="adsense-section ">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="adsense-section ">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="adsense-section ">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
+
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+    <div class="footer"></div>
+</section>
 
 <script>
+    var id;
     $(document).ready(function() {
+        $('.exc').on('click', function() {
+            var idExc = $(this).data('id');
+            //console.log(id)
 
-        autosize();
-
-        var datos;
-        $.ajaxSetup({
-            headers: {
-                'X-Requested-With': 'XMLHttpRequest',
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
-            }
-        });
-
-        $('#java').on('click', function() {
-            containOp('java');
-        });
-
-        $('#csharp').on('click', function() {
-            containOp('csharp');
-        });
-
-        function containOp(datos) {
             $.ajax({
-                type: "POST",
-                url: '{{ route("contain.option") }}',
-                data: {
-                    datos: datos,
-                    _token: '{{ csrf_token() }}',
-                },
+                url: '/exc/' + idExc,
+                type: 'GET',
                 success: function(response) {
-                    $('.data-container-excprog').html(response);
-                    autosize();
+                    $('.data-content').html(response.data_content);
+                },
+                error: function(error) {
+                    console.error(error);
                 }
             });
-        }
-    });
-
-    function autosize() {
-        $("textarea").each(function() {
-            this.setAttribute("style", "height:" + (this.scrollHeight) + "px;overflow-y:hidden;");
-        }).on("input", function() {
-            this.style.height = 0;
-            this.style.height = (this.scrollHeight) + "px";
         });
-    }
+    });
 </script>
 
 @endsection

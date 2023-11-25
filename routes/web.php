@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('ejercicios.progra.index');
 });
 
 Auth::routes();
@@ -24,6 +24,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('excprog_index', [ApplicationController::class, 'ExcProg_index'])->name('excprog.index');
 
-Route::post('contain_option', [ApplicationController::class, 'ContainOption'])->name('contain.option');
-
 Route::get('learnprog_index', [ApplicationController::class, 'LearnProg_index']);
+
+Route::get('exc/{id}', [ApplicationController::class, 'get_data_content']);
