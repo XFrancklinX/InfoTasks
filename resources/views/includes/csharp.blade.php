@@ -1,29 +1,17 @@
 <?php $tab = "&nbsp&nbsp&nbsp&nbsp"; ?>
-<div class="d-flex justify-content-around header">
-                <div class="adsense-section ">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-                <div>
-                    <h1 class="text-center"><span class="text-black icon-exc"><img class="img" src="{{asset('images/icons/c-sharp-c.svg')}}" alt="Visual Studio 2022"></span></h1>
-                </div>
-                <div class="adsense-section ">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-                <hr>
-                <br>
-            </div>
+<div class="header-exc">
+    <div class="adsense-section border border-5" style="display: inline-block; width: 100%;">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3903072283437672" crossorigin="anonymous"></script>
+        <!-- publish-anouncement -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3903072283437672" data-ad-slot="1438480841" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+    <div>
+        <h1 class="text-center"><span class="text-black icon-exc"><img class="img" src="{{asset('images/icons/c-sharp-c.svg')}}" alt="Visual Studio 2022"></span></h1>
+    </div>
+</div>
 <div>
     <ul class="list-unstyled px-3">
         <li class="py-2">
@@ -225,6 +213,14 @@
                 </div>
             </div>
         </li>
+        <div class="adsense-section border border-5" style="display: inline-block; width: 100%;">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3903072283437672" crossorigin="anonymous"></script>
+            <!-- publish-anouncement-2 -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3903072283437672" data-ad-slot="7826466231" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
         <li class="py-2">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="d-flex ms-2 me-auto">
@@ -565,6 +561,13 @@
                 </div>
             </div>
         </li>
+        <div class="adsense-section border border-5" style="display: inline-block; width: 100%;">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3903072283437672" crossorigin="anonymous"></script>
+            <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-3903072283437672" data-ad-slot="7508570334"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
         <li class="py-2">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="d-flex ms-2 me-auto">
@@ -1075,6 +1078,14 @@
                 </div>
             </div>
         </li>
+        <div class="adsense-section border border-5" style="display: inline-block; width: 100%;">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3903072283437672" crossorigin="anonymous"></script>
+            <!-- publish-anouncement-4 -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3903072283437672" data-ad-slot="2574139552" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
         <li class="py-2">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="d-flex ms-2 me-auto">

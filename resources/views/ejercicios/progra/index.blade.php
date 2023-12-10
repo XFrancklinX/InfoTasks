@@ -57,227 +57,59 @@
                         </a> -->
                     </div>
                 </div>
-                <div class="adsense-section ">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-                <div class="adsense-section ">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-                <div class="adsense-section ">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-                <div class="adsense-section ">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-                <div class="adsense-section ">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-                <div class="adsense-section ">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-                <div class="adsense-section ">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-                <div class="adsense-section ">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-                <div class="adsense-section ">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-                <div class="adsense-section">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
             </nav>
         </aside>
     </div>
     <div class="body">
-        <div class="data-container-excprog">
-
-            <div class="data-content" id="#data-content">
-                @include('includes.csharp')
-            </div>
+        <div class="data-content" id="#data-content">
+            @include('includes.csharp')
         </div>
     </div>
-    <div class="rightSide card">
-        <div class="adsense-section ">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
+    <div class="rightSide">
+        <div class="adsense-section border border-5" style="display: inline-block; width: 100%;">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3903072283437672" crossorigin="anonymous"></script>
+            <!-- publish-anouncement-5 -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3903072283437672" data-ad-slot="1774356914" data-ad-format="auto" data-full-width-responsive="true"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
-        <div class="adsense-section ">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
+        <div class="adsense-section border border-5" style="display: inline-block; width: 100%;">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3903072283437672" crossorigin="anonymous"></script>
+            <!-- publish-anouncement-6 -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3903072283437672" data-ad-slot="8947976215" data-ad-format="auto" data-full-width-responsive="true"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
-        <div class="adsense-section ">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
+        <div class="adsense-section border border-5" style="display: inline-block; width: 100%;">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3903072283437672" crossorigin="anonymous"></script>
+            <!-- publish-anouncement-7 -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3903072283437672" data-ad-slot="5522030232" data-ad-format="auto" data-full-width-responsive="true"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
-        <div class="adsense-section ">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-        <div class="adsense-section ">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-        <div class="adsense-section ">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-        <div class="adsense-section ">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-        <div class="adsense-section ">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-        <div class="adsense-section ">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-        <div class="adsense-section ">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-        <div class="adsense-section ">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-        <div class="adsense-section ">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-        <div class="adsense-section ">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-            <ins class="adsbygoogle" style="display:block" data-ad-client="" data-ad-slot=""></ins>
-
+        <div class="adsense-section border border-5" style="display: inline-block; width: 100%;">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3903072283437672" crossorigin="anonymous"></script>
+            <!-- publish-anouncement-8 -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3903072283437672" data-ad-slot="5108803551" data-ad-format="auto" data-full-width-responsive="true"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer border border-5">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3903072283437672" crossorigin="anonymous"></script>
+        <!-- publish-anouncement -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3903072283437672" data-ad-slot="1438480841" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
 </section>
 
 <script>

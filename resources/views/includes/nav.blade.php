@@ -13,7 +13,7 @@
                     <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Aprendizaje</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li>
-                            <a href="learnprog_index" class="dropdown-item">Programacion</a>
+                            <a href="{{route('learnprog_index')}}" class="dropdown-item">Programacion</a>
                         </li>
                         <li>
                             <a href="#" class="dropdown-item">SQL</a>
