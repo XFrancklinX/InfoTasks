@@ -213,14 +213,6 @@
                 </div>
             </div>
         </li>
-        <div class="adsense-section border border-5" style="display: inline-block; width: 100%;">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3903072283437672" crossorigin="anonymous"></script>
-            <!-- publish-anouncement-2 -->
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3903072283437672" data-ad-slot="7826466231" data-ad-format="auto" data-full-width-responsive="true"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
         <li class="py-2">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="d-flex ms-2 me-auto">
@@ -561,13 +553,6 @@
                 </div>
             </div>
         </li>
-        <div class="adsense-section border border-5" style="display: inline-block; width: 100%;">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3903072283437672" crossorigin="anonymous"></script>
-            <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-3903072283437672" data-ad-slot="7508570334"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
         <li class="py-2">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="d-flex ms-2 me-auto">
@@ -1078,14 +1063,6 @@
                 </div>
             </div>
         </li>
-        <div class="adsense-section border border-5" style="display: inline-block; width: 100%;">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3903072283437672" crossorigin="anonymous"></script>
-            <!-- publish-anouncement-4 -->
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3903072283437672" data-ad-slot="2574139552" data-ad-format="auto" data-full-width-responsive="true"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
         <li class="py-2">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="d-flex ms-2 me-auto">

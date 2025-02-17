@@ -20,6 +20,20 @@ return new class extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
+
+        Schema::create('works', function (Blueprint $table) {
+            $table->id();
+            $table->text('tittle');
+            $table->text('detail');
+            $table->decimal('price', 10, 2);
+            $table->text('location');
+            $table->text('contact');
+            $table->text('links');
+            $table->unsignedBigInteger('user_id');
+            $table->timestamps();
+
+            $table->foreign('user_id')->references('id')->on('users');
+        });
     }
 
     /**
@@ -28,5 +42,6 @@ return new class extends Migration
     public function down(): void
     {
         Schema::dropIfExists('users');
+        Schema::dropIfExists('works');
     }
 };
