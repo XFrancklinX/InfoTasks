@@ -1,0 +1,12 @@
+/* TEXT COLOR IMPORTANT */
+.text-dark{
+    color: black !important;
+}
+.job-detail{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+
+    text-align: justify;
+}
