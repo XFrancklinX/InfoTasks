@@ -19,8 +19,8 @@
 <link rel="stylesheet" href="components/overlay-scroll/OverlayScrollbars.min.css">
 
 {{-- Datatables --}}
-<link rel="stylesheet" href="components/datatables/dataTables.bs5.css" />
-<link rel="stylesheet" href="components/datatables/dataTables.bs5-custom.css" />
+<link rel="stylesheet" href="https://infotasks.net/components/datatables/dataTables.bs5.css" />
+<link rel="stylesheet" href="https://infotasks.net/components/datatables/dataTables.bs5-custom.css" />
 
 <style>
     #main-container-card {
